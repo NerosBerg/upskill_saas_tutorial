@@ -18,15 +18,22 @@
  @import 'bootstrap';
 
 h1, h2, h3 {
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Neucha', sans-serif;
 }
 
-body, .navbar {
-  background: #FC354C; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #FC354C , #0ABFBC); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FC354C , #0ABFBC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.home-callout, .navbar {
+  background: #DC2424; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DC2424 , #4A569D); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DC2424 , #4A569D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
