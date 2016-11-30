@@ -50,6 +50,17 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: red;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid red;
+  &:hover, &:focus {
+    background-color: #8e9eab;
+  }
+}
+
 //Home Page Styles
 .home-callout {
   margin-top: -20px;
