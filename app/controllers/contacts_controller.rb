@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
       flash[:success] = "„Няма любов, по-искрена от любовта към храната“. Джордж Бърнард Шоу"
       redirect_to new_contact_path
     else
-      flash[:error] = @contact.errors.full_messages.join(", ")
+      flash[:danger] = " Възникна грешка! Опитайте отново."
       redirect_to new_contact_path
     end
   end
